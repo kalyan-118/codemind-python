@@ -1,7 +1,7 @@
 _=int(input())
-v=list(map(int,input().split()))
-k=set(v)
-r=0
-for i in k:
-    r+=(v.count(i))//2
-print(r)
+a=list(map(int,input().split()))
+b=set(a)
+c=0
+for i in b:
+    c+=(a.count(i))//2
+print(c)
